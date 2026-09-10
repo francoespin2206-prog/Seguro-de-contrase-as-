@@ -11,4 +11,4 @@ else: #si cumple con 8 caracteres o más va a empezar a generar la contraseña
     for i in range(longitud): #repite el proceso de generar un caracter aleatorio hasta que se cumpla la longitud de la contraseña
         numero_aleatorio= random.randint(0, len(caracteres)-1)
         contraseña += caracteres[numero_aleatorio]
-print("Contraseña final", contraseña) #contraseña final generada
+    print("Contraseña final", contraseña) #contraseña final generada
